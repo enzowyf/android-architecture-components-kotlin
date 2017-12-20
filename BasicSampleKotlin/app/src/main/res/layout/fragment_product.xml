@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical"
+    tools:context="com.ezstudio.basicsample.ui.ProductFragment">
+
+    <include layout="@layout/product_item" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/loading_comments_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/loading_comments" />
+
+        <FrameLayout
+            android:id="@+id/comments_list_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/comment_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/cd_comments_list" />
+        </FrameLayout>
+    </FrameLayout>
+
+
+</LinearLayout>
