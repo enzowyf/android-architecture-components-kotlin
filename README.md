@@ -4,6 +4,7 @@ The Kotlin version of android-architecture-components.
 
 
 ##BasicSampleKotlin
+
 This sample showcases the following Architecture Components:
 
 * [Room](https://developer.android.com/topic/libraries/architecture/room.html)
