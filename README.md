@@ -1,6 +1,6 @@
-# android-architecture-components-kotlin
+# Android Architecture Components Samples in Kotlin
 
-The Kotlin version of android-architecture-components.
+The Kotlin version of [android-architecture-components](https://github.com/googlesamples/android-architecture-components).
 
 
 ## BasicSampleKotlin
