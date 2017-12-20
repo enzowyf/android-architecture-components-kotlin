@@ -3,7 +3,7 @@
 The Kotlin version of android-architecture-components.
 
 
-##BasicSampleKotlin
+## BasicSampleKotlin
 
 This sample showcases the following Architecture Components:
 
